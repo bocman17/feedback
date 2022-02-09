@@ -52,7 +52,7 @@ const FeedbackForm = () => {
       }
 
       setText('')
-      setFeedbackEdit({ item: newFeedback, edit: false })
+      setFeedbackEdit({ item: {text: "", rating: 10}, edit: false })
 
     }
   }
